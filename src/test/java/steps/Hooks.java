@@ -5,10 +5,8 @@ import io.cucumber.guice.ScenarioScoped;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import utils.BaseClass;
 
 import java.util.Random;
 

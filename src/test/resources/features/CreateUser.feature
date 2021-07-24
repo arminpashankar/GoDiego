@@ -1,4 +1,4 @@
-@Smoke
+@post
 Feature: Create user feature
   As an authenticated user
   I want to create a user

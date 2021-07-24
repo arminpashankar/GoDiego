@@ -7,8 +7,10 @@ import io.cucumber.guice.ScenarioScoped;
 @lombok.Data
 @ScenarioScoped
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class GetUserResponse {
+public class CreateUserResponse {
+
     private String meta;
-    private GetUserData data;
+    private CreateUserData data;
+
 
 }

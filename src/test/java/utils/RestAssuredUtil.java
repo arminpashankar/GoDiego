@@ -4,7 +4,7 @@ import io.cucumber.java.Scenario;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class BaseClass {
+public class RestAssuredUtil {
 
     public RequestSpecification request;
     public Response response;
